@@ -5,7 +5,7 @@ const array3 = ['a','b','c','x'];
 const array4 = ['z','y','x'];
 
 function containsCommonItem(data1, data2){
-    //loop through firsy aaray and create object where properties === items in the array
+    //loop through firsy array and create object where properties === items in the array
 
     let map = {};
     for(let i = 0; i< data1.length; i++){
@@ -25,4 +25,5 @@ function containsCommonItem(data1, data2){
 
 }
 
-containsCommonItem(array3, array4);
+const result = containsCommonItem(array3, array4);
+console.log(result)

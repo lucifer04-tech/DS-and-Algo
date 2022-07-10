@@ -2,3 +2,13 @@ h1{
     text-align: center;
     color: green
 }
+
+input{
+    width: 25%;
+    margin: auto;
+    display: block;
+}
+
+body{
+    background-color: black;
+}

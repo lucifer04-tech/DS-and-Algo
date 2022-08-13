@@ -12,7 +12,7 @@ function numberOfOccurence(input){
     return map;
 }
 
-const result = numberOfOccurence('shikharsaxena')
+const result = numberOfOccurence('aaaabbbbcc')
 console.log(result);
 
 //expected output: [a:4, b:4, c:2]
